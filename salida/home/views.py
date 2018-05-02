@@ -187,7 +187,7 @@ def vista_login(request):
 #logout
 def vista_logout(request):
 	logout(request)
-	return redirect('/autores/')
+	return redirect('/login/')
 
 #registro
 def vista_registro(request):

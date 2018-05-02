@@ -19,6 +19,8 @@
 			<li><a href="{% url 'vista_autores' %}">Autores</a></li>
 			<li><a href="{% url 'vista_login' %}">Login</a></li>
 			<li><a href="{% url 'vista_registro' %}">Registro</a></li>
+			{{User.username}}
+			<li><a href="{% url 'vista_logout' %}">logout</a></li>
 
 		</ul>
 	</nav>
